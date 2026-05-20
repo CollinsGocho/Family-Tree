@@ -131,6 +131,4 @@ descendant(Descendant, Ancestor) :-
 ancestor(Ancestor, Descendant) :- 
     descendant(Descendant, Ancestor).
 
-% INTEGRITY CONSTRAINTS
-% Uncomment to enforce constraints:
-% :- male(X), female(X).  % No one can be both male and female
+
